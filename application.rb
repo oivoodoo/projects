@@ -28,6 +28,16 @@ post '/create/:api_key' do
   score.to_json
 end
 
+post '/game/create' do
+  project = Project.first(params[:api_key])
+  game = Game.create({:project_id => project.id})
+
+  game.id
+end
+
+post '/scores/create' do
+end
+
 before '/projects/*' do
   protected!
 end
