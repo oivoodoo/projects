@@ -1,0 +1,193 @@
+#<Project _id: BSON::ObjectId('4d6e3ccd88b4e11a4e000001'), api_key: nil, title: "Tetris", score_ids: []>
+>> Thin web server (v1.2.8 codename Black Keys)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+>> Stopping ...
+127.0.0.1 - - [02/Mar/2011 14:49:17] "POST /projects/create HTTP/1.1" 200 18 0.0059
+#<Project _id: BSON::ObjectId('4d6e3d1488b4e11a82000001'), api_key: nil, title: "Tetris", score_ids: []>
+#<Validatable::Errors:0x867c660 @errors={:api_key=>["can't be empty"]}>
+>> Thin web server (v1.2.8 codename Black Keys)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+>> Stopping ...
+127.0.0.1 - - [02/Mar/2011 14:50:19] "GET / HTTP/1.1" 200 81 0.0264
+127.0.0.1 - - [02/Mar/2011 14:50:19] "GET /favicon.ico HTTP/1.1" 404 420 0.0006
+127.0.0.1 - - [02/Mar/2011 14:50:28] "POST /projects/create HTTP/1.1" 200 18 0.0014
+#<Project _id: BSON::ObjectId('4d6e3d9988b4e11a97000001'), api_key: nil, title: "Tetris", score_ids: []>
+#<Validatable::Errors:0x96dfdb8 @errors={:api_key=>["can't be empty"]}>
+#<Project _id: BSON::ObjectId('4d6e3d9d88b4e11a97000002'), api_key: nil, title: "Tetris", score_ids: []>
+#<Validatable::Errors:0x949b5c0 @errors={:api_key=>["can't be empty"]}>
+>> Thin web server (v1.2.8 codename Black Keys)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+>> Stopping ...
+127.0.0.1 - - [02/Mar/2011 14:52:41] "POST /projects/create HTTP/1.1" 200 18 0.0062
+127.0.0.1 - - [02/Mar/2011 14:52:45] "POST /projects/create HTTP/1.1" 200 18 0.0022
+#<Project _id: BSON::ObjectId('4d6e3e3e88b4e11aa0000001'), api_key: nil, title: "Tetris", score_ids: []>
+#<Validatable::Errors:0x9be6014 @errors={:api_key=>["can't be empty"]}>
+>> Thin web server (v1.2.8 codename Black Keys)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+>> Stopping ...
+127.0.0.1 - - [02/Mar/2011 14:55:26] "POST /projects/create HTTP/1.1" 200 - 0.0064
+#<Project _id: BSON::ObjectId('4d6e3e5688b4e11aa7000001'), api_key: nil, title: "Tetris", score_ids: []>
+#<Validatable::Errors:0x8e80bf4 @errors={:api_key=>["can't be empty"]}>
+#<Project _id: BSON::ObjectId('4d6e3e5a88b4e11aa7000002'), api_key: nil, title: "Tetris", score_ids: []>
+#<Validatable::Errors:0x8c3bba0 @errors={:api_key=>["can't be empty"]}>
+>> Thin web server (v1.2.8 codename Black Keys)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+>> Stopping ...
+127.0.0.1 - - [02/Mar/2011 14:55:50] "POST /projects/create HTTP/1.1" 200 - 0.0063
+127.0.0.1 - - [02/Mar/2011 14:55:54] "POST /projects/create HTTP/1.1" 200 - 0.0021
+>> Thin web server (v1.2.8 codename Black Keys)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+>> Stopping ...
+#<Project _id: BSON::ObjectId('4d6e3e9788b4e11ab2000001'), api_key: nil, title: "Tetris", score_ids: []>
+#<Validatable::Errors:0x98c8990 @errors={:api_key=>["can't be empty"]}>
+>> Thin web server (v1.2.8 codename Black Keys)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+>> Stopping ...
+127.0.0.1 - - [02/Mar/2011 14:56:55] "POST /projects/create HTTP/1.1" 200 - 0.0059
+>> Thin web server (v1.2.8 codename Black Keys)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+>> Stopping ...
+127.0.0.1 - - [02/Mar/2011 14:58:50] "GET / HTTP/1.1" 200 81 0.0264
+127.0.0.1 - - [02/Mar/2011 14:58:50] "GET /favicon.ico HTTP/1.1" 404 420 0.0007
+127.0.0.1 - - [02/Mar/2011 14:58:51] "GET / HTTP/1.1" 200 81 0.0030
+127.0.0.1 - - [02/Mar/2011 14:58:51] "GET /favicon.ico HTTP/1.1" 404 420 0.0006
+#<Project _id: BSON::ObjectId('4d6e469888b4e11b5c000001'), api_key: "5e3647d4-6aa3-f308-6e0f-23193d8ca766", title: "Tetris", score_ids: []>
+#<Validatable::Errors:0x8cb60bc @errors={}>
+>> Thin web server (v1.2.8 codename Black Keys)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+>> Stopping ...
+127.0.0.1 - - [02/Mar/2011 15:31:04] "POST /projects/create HTTP/1.1" 200 - 0.0146
+ArgumentError - wrong number of arguments (2 for 1):
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/activesupport-3.0.5/lib/active_support/core_ext/object/to_json.rb:19:in `to_json'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/json_pure-1.5.1/lib/json/common.rb:212:in `generate'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/json_pure-1.5.1/lib/json/common.rb:212:in `generate'
+ /home/korsaks/projects/projects/application.rb:36:in `block in <top (required)>'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:1064:in `call'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:1064:in `block in compile!'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:649:in `instance_eval'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:649:in `route_eval'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:633:in `block (2 levels) in route!'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:681:in `block in process_route'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:678:in `catch'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:678:in `process_route'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:632:in `block in route!'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:631:in `each'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:631:in `route!'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:766:in `dispatch!'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:559:in `block in call!'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:731:in `instance_eval'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:731:in `block in invoke'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:731:in `catch'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:731:in `invoke'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:559:in `call!'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:544:in `call'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/rack-1.2.1/lib/rack/showexceptions.rb:24:in `call'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/rack-1.2.1/lib/rack/commonlogger.rb:18:in `call'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:1173:in `block in call'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:1199:in `synchronize'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:1173:in `call'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/connection.rb:84:in `block in pre_process'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/connection.rb:82:in `catch'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/connection.rb:82:in `pre_process'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/connection.rb:57:in `process'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/connection.rb:42:in `receive_data'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/backends/base.rb:61:in `start'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/server.rb:159:in `start'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/controllers/controller.rb:86:in `start'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/runner.rb:185:in `run_command'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/runner.rb:151:in `run!'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/bin/thin:6:in `<top (required)>'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/bin/thin:19:in `load'
+ /home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/bin/thin:19:in `<main>'
+ArgumentError: wrong number of arguments (2 for 1)
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/activesupport-3.0.5/lib/active_support/core_ext/object/to_json.rb:19:in `to_json'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/json_pure-1.5.1/lib/json/common.rb:212:in `generate'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/json_pure-1.5.1/lib/json/common.rb:212:in `generate'
+	/home/korsaks/projects/projects/application.rb:36:in `block in <top (required)>'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:1064:in `call'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:1064:in `block in compile!'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:649:in `instance_eval'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:649:in `route_eval'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:633:in `block (2 levels) in route!'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:681:in `block in process_route'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:678:in `catch'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:678:in `process_route'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:632:in `block in route!'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:631:in `each'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:631:in `route!'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:766:in `dispatch!'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:559:in `block in call!'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:731:in `instance_eval'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:731:in `block in invoke'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:731:in `catch'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:731:in `invoke'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:559:in `call!'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:544:in `call'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/rack-1.2.1/lib/rack/showexceptions.rb:24:in `call'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/rack-1.2.1/lib/rack/commonlogger.rb:18:in `call'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:1173:in `block in call'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:1199:in `synchronize'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/sinatra-1.1.3/lib/sinatra/base.rb:1173:in `call'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/connection.rb:84:in `block in pre_process'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/connection.rb:82:in `catch'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/connection.rb:82:in `pre_process'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/connection.rb:57:in `process'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/connection.rb:42:in `receive_data'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run_machine'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/eventmachine-0.12.10/lib/eventmachine.rb:256:in `run'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/backends/base.rb:61:in `start'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/server.rb:159:in `start'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/controllers/controller.rb:86:in `start'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/runner.rb:185:in `run_command'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/lib/thin/runner.rb:151:in `run!'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/thin-1.2.8/bin/thin:6:in `<top (required)>'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/bin/thin:19:in `load'
+	/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/bin/thin:19:in `<main>'
+>> Thin web server (v1.2.8 codename Black Keys)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+>> Stopping ...
+127.0.0.1 - - [02/Mar/2011 15:31:52] "POST /projects/create HTTP/1.1" 500 117966 0.0596
+No examples were matched. Perhaps {:if=>#<Proc:0x9101c84@/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/rspec-core-2.5.1/lib/rspec/core/configuration.rb:50 (lambda)>, :unless=>#<Proc:0x9101c34@/home/korsaks/.rvm/gems/ruby-1.9.2-p180@sin/gems/rspec-core-2.5.1/lib/rspec/core/configuration.rb:51 (lambda)>} is excluding everything?
+
+
+Finished in 0.00943 seconds
+0 examples, 0 failures
+*****************************************************************
+DEPRECATION WARNING: you are using a deprecated constant that will
+be removed from a future version of RSpec.
+
+/home/korsaks/projects/projects/spec/spec_helper.rb:15:in `<top (required)>'
+
+* Spec is deprecated.
+* RSpec is the new top-level module in RSpec-2
+***************************************************************
+
+
+*****************************************************************
+DEPRECATION WARNING: you are using deprecated behaviour that will
+be removed from a future version of RSpec.
+
+/home/korsaks/projects/projects/spec/spec_helper.rb:15:in `<top (required)>'
+
+* Spec::Runner.configure is deprecated.
+* please use RSpec.configure instead.
+*****************************************************************
+>> Thin web server (v1.2.8 codename Black Keys)
+>> Maximum connections set to 1024
+>> Listening on 0.0.0.0:3000, CTRL+C to stop
+>> Stopping ...
+127.0.0.1 - - [02/Mar/2011 15:33:47] "POST /projects/create HTTP/1.1" 200 114 0.0146

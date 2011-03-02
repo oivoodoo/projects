@@ -1,5 +1,4 @@
-require "home"
+require './application'
 
-use Rack::ShowExceptions
+run Sinatra::Application
 
-run Home.new

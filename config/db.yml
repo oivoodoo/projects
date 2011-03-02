@@ -1,9 +1,16 @@
 development:
   host: 127.0.0.1
   username: admin
-  password: 
+  password: 123456
   encoding: utf8
   database: projects_development
+
+test:
+  host: 127.0.0.1
+  username: admin
+  password: 123456
+  encoding: utf8
+  database: projects_test
 
 production:
   host: mongodb0.locum.ru
@@ -11,3 +18,4 @@ production:
   password: f5FQQDNb
   encoding: utf8
   database: onfly_projects49
+
