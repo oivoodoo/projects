@@ -1,51 +1,24 @@
 require "rubygems"
 require "sinatra"
-require "mongo"
 require "json/pure"
 require "mongo"
 require "mongo_mapper"
 require "bson"
-require "guid"
 require './boot'
 
 MongoMapper.connect(Sinatra::Base.environment)
 
-get '/top/:api_key' do
-  project = Project.first(params[:api_key])
-  project.scores.to_json if project
+get '/top/json' do
+  Score.all(:limit => 13).to_json
 end
 
-get '/:api_key' do
-  project = Project.first(params[:api_key])
-  project.scores.to_json if project
+get '/json' do
+  Score.all(:limit => 100).to_json
 end
 
-post '/create/:api_key' do
-  score = Score.new(request.body.read)
-  score.project = Project.first(params[:api_key])
-  score.save
+post '/create' do
+  score = Score.create(request.body.read)
 
   score.to_json
-end
-
-post '/game/create' do
-  project = Project.first(params[:api_key])
-  game = Game.create({:project_id => project.id})
-
-  game.id
-end
-
-post '/scores/create' do
-end
-
-before '/projects/*' do
-  protected!
-end
-
-post '/projects/create' do
-  project = Project.new(JSON.parse(request.body.read))
-  project.save
-
-  project.to_json
 end
 

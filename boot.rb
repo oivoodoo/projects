@@ -10,17 +10,3 @@ MongoMapper.config = {
 Dir["./models/*.rb"].each {|f| require f}
 Dir["./lib/*.rb"].each {|f| require f}
 
-log = File.new("sinatra.log", "a+")
-$stdout.reopen(log)
-$stderr.reopen(log)
-
-configure do
-  LOGGER = Logger.new("sinatra.log")
-end
-
-helpers do
-  def logger
-    LOGGER
-  end
-end
-
